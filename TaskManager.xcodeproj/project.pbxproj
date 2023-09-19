@@ -16,6 +16,8 @@
 		278198AF2ABA112200DD6856 /* TaskManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278198AE2ABA112200DD6856 /* TaskManagerTests.swift */; };
 		278198B92ABA112200DD6856 /* TaskManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278198B82ABA112200DD6856 /* TaskManagerUITests.swift */; };
 		278198BB2ABA112200DD6856 /* TaskManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278198BA2ABA112200DD6856 /* TaskManagerUITestsLaunchTests.swift */; };
+		278198C82ABA12EC00DD6856 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278198C72ABA12EC00DD6856 /* Router.swift */; };
+		278198CA2ABA13A000DD6856 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278198C92ABA13A000DD6856 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		278198B42ABA112200DD6856 /* TaskManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		278198B82ABA112200DD6856 /* TaskManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerUITests.swift; sourceTree = "<group>"; };
 		278198BA2ABA112200DD6856 /* TaskManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		278198C72ABA12EC00DD6856 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		278198C92ABA13A000DD6856 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				278198A12ABA112200DD6856 /* Persistence.swift */,
 				278198A32ABA112200DD6856 /* TaskManager.xcdatamodeld */,
 				2781989E2ABA112200DD6856 /* Preview Content */,
+				278198C72ABA12EC00DD6856 /* Router.swift */,
+				278198C92ABA13A000DD6856 /* LoginView.swift */,
 			);
 			path = TaskManager;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278198CA2ABA13A000DD6856 /* LoginView.swift in Sources */,
 				278198A22ABA112200DD6856 /* Persistence.swift in Sources */,
 				2781989B2ABA112100DD6856 /* ContentView.swift in Sources */,
+				278198C82ABA12EC00DD6856 /* Router.swift in Sources */,
 				278198A52ABA112200DD6856 /* TaskManager.xcdatamodeld in Sources */,
 				278198992ABA112100DD6856 /* TaskManagerApp.swift in Sources */,
 			);

@@ -1,8 +1,7 @@
-//
-//  Router.swift
-//  TaskManager
-//
-//  Created by Andrei-Cristian Stanciu on 19.09.2023.
-//
-
 import Foundation
+
+enum NavigationScreen: Hashable {
+     case login
+//     case register
+//     case mainScreen
+}
